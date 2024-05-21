@@ -8,7 +8,7 @@
 int main(){
 
 	LedInit();
-	InitTimer0Match0(2024);
+	InitTimer0Match0(2050);
 
 	while(1){
 		WaitOnTimer0Match0();
